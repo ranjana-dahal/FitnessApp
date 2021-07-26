@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Squat" android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/squat"
+        android:layout_marginBottom="499dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginEnd="161dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:id="@+id/txt_squat"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="283dp"
+        android:layout_height="260dp"
+        android:textColor="#ffff"
+        android:layout_marginBottom="218dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/squat"/>
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="140dp"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:text="The most obvious benefit of squats is building your leg muscles. steps:1.Stand with feet a little wider than hip width, toes facing front.
+2.Drive your hips back—bending at the knees and ankles and pressing your knees.
+3.Sit into a squat position while still keeping your heels and toes on the ground,chest up and shoulders back.
+4.Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.
+5.Press into your heels and straighten legs to return to a standing upright position.
+sets: 8-12 reps"
+        android:layout_marginBottom="76dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txti_squa_t" app:fontFamily="sans-serif-condensed" android:textStyle="normal"/>
+
+</RelativeLayout>

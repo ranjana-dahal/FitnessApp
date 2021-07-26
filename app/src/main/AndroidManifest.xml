@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yogaapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".Pasta" />
+        <activity android:name=".Salad" />
+        <activity android:name=".GreenVegetables" />
+        <activity android:name=".Chapati" />
+        <activity android:name=".GrilledChicken" />
+        <activity android:name=".Drinks" />
+        <activity android:name=".BoiledEgg" />
+        <activity android:name=".Oats" />
+        <activity android:name=".Dinner" />
+        <activity android:name=".Lunch" />
+        <activity android:name=".BreakFast" />
+        <activity android:name=".LegPress" />
+        <activity android:name=".DeadLift" />
+        <activity android:name=".DumbellLunge" />
+        <activity android:name=".LingaMudra" />
+        <activity android:name=".GyanMudra" />
+        <activity android:name=".Mountain" />
+        <activity android:name=".FoamRolling" />
+        <activity android:name=".SideLunge" />
+        <activity android:name=".Bridge" />
+        <activity android:name=".Squat" />
+        <activity android:name=".DownwardFacinfDog" />
+        <activity android:name=".Crane" />
+        <activity android:name=".Pushup" />
+        <activity android:name=".BodyBuildingWorkout" />
+        <activity android:name=".HomeWorkout" />
+        <activity android:name=".KneeWorkout" />
+        <activity android:name=".LegWorkout" />
+        <activity android:name=".ArmWorkout" />
+        <activity android:name=".Track" />
+        <activity android:name=".Workout" />
+        <activity android:name=".Home" />
+        <activity android:name=".Logout" />
+        <activity android:name=".Calender" />
+        <activity android:name=".Alarm" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlertReceiver" />
+    </application>
+
+</manifest>

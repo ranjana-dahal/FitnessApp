@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:background="#000"
+    tools:context=".Salad"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/salad"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/image"/>
+
+    <TextView
+        android:layout_height="140dp"
+        android:layout_width="347dp"
+        app:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="Salads:152 calories(100grams)"
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txti_salad"/>
+
+</RelativeLayout>

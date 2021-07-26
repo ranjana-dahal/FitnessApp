@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArmWorkout"
+    android:background="@drawable/downloads">
+
+    <TextView
+        android:id="@+id/tarmworkout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="cursive"
+        android:text="@string/armworkoutposes"
+        android:textAlignment="center"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_p"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/pushup"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_c"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/cranepose"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_do"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/downward"
+        android:background="@drawable/custom_button"/>
+
+
+
+</RelativeLayout>

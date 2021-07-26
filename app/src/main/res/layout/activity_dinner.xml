@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    tools:context=".Dinner"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/downloads">
+
+    <Button
+        android:id="@+id/bt_sal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/salads"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_past"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/pasta"
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>

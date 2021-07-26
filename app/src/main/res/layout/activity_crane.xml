@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crane" android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/cranepose"
+        android:layout_marginBottom="499dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginEnd="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txt_cra_ne"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="283dp"
+        android:layout_height="260dp"
+        android:textColor="#ffff"
+        android:layout_marginBottom="218dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/cranepose"/>
+
+    <TextView android:layout_width="347dp"
+        android:layout_height="137dp"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:text="steps:
+        1.Wide stretch the fingers of your hands and place the palms on the floor (shoulder width apart) right in front of your feet.
+2.Lean forward a little in order to bring the knees close to the armpits as much as you can.
+3.Transfer your body weight to your arms completely while your toes are still on the floor.
+4.Gently press your knees against the arms and slowly lift your big toes off the floor.
+5.Raise your buttocks a little and balance the body solely on your arms.
+6.Lift your head, lengthen your neck.
+7.Breath normally and hold the position for 5 to 15 breaths.
+Do 3 steps of 5 reps three time a week."
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txti_crann_e"
+        app:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

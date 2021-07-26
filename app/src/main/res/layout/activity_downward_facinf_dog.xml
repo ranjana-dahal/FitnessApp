@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DownwardFacinfDog" android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/downward"
+        android:layout_marginBottom="499dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginEnd="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txt_dow_fac_dog"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="283dp"
+        android:layout_height="260dp"
+        android:textColor="#ffff"
+        android:layout_marginBottom="218dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/downwardfacingdog"/>
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="137dp"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:text="steps: 1.Stretch your elbows and relax your upper back.
+2.Spread your fingers wide and press firmly through your palms and knuckles.
+3.Exhale as you tuck your toes and lift your knees off the floor.
+4.Reach your pelvis up toward the ceiling, then draw your sit bones toward the wall behind you.
+5.Gently begin to straighten your legs, but do not lock your knees.
+5.Press the floor away from you as you lift through your pelvis.
+Firm the outer muscles of your arms and press your index fingers into the floor.
+6.Lift from the inner muscles of your arms to the top of both shoulders.
+7.Rotate your arms externally so your elbow creases face your thumbs.
+8.Align your ears with your upper arms.
+9.To release, exhale as you gently bend your knees and come back to your hands and knees."
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txti_down_ward_fac_dog"
+        app:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

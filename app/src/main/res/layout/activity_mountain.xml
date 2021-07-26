@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mountain" android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" android:textColor="#ffff"
+        android:text="@string/mountainpose"
+        android:layout_marginBottom="499dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginEnd="161dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txt_mountain"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="283dp"
+        android:layout_height="260dp"
+        android:textColor="#ffff"
+        android:layout_marginBottom="218dp"
+        android:layout_marginRight="40dp" android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+        android:src="@drawable/mountainpose"/>
+
+    <TextView android:layout_width="347dp"
+        android:layout_height="140dp"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:text="steps: 1.Stand with your feet together and your arms at your sides.
+2.Press your big toes together.
+3.Draw down through your heels and straighten your legs.
+4.lift your ankles and the arches of your feet.
+5.Draw the top of your thighs up and back, engaging the quadriceps.
+
+Start with a slow pace and do 1 or 2 sets of 8 to 10 repetitions."
+        android:layout_marginBottom="76dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/moun_tain" app:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

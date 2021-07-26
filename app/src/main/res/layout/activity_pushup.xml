@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pushup"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/pushup"
+        android:layout_marginBottom="499dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginEnd="161dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txt_pushup"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="283dp"
+        android:layout_height="260dp"
+        android:textColor="#ffff"
+        android:layout_marginBottom="218dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/pushupp"/>
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="140dp"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:text=" Pushups are a fast and effective exercise for building strength.
+Steps:
+
+1. Get down on all fours, placing your hands slightly wider than your shoulders.
+2. Straighten your arms and legs
+3. Lower your body until your chest nearly touches the floor.
+4. Pause, then push yourself back up.And
+Sets:12-10-8-6"
+
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txti_push_up"
+        app:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

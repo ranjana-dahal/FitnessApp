@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workout"
+    android:background="@drawable/downloads">
+
+    <ImageView
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/rr"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/image"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="30dp"
+            android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+            android:text="Arm Exercises"
+            android:id="@+id/bt_a"
+            android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_l"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Leg Exercise"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_k"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Knee Exercise"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/bt_h"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Hand Exercises"
+        android:background="@drawable/custom_button"/>
+
+
+    <Button
+        android:id="@+id/bt_b"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="BodyBuilding Exercises"
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>
